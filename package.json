@@ -1,0 +1,9 @@
+{
+  "name": "pi-resilient-retry",
+  "version": "1.0.0",
+  "description": "Resilient retry with staged backoff and ordered model fallback for pi",
+  "type": "module",
+  "license": "MIT",
+  "keywords": ["pi", "pi-package", "retry", "fallback", "rate-limit"],
+  "pi": { "extensions": ["./resilient-retry.ts"] }
+}
